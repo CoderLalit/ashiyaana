@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Ashiyana_Pharmacy</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/Aldrich.css" />
+    <link rel="stylesheet" href="assets/css/Allerta.css" />
+    <link rel="stylesheet" href="assets/css/Roboto.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css" />
+    <link rel="stylesheet" href="assets/css/Black-Navbar.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css" />
+    <link rel="stylesheet" href="assets/css/Footer-Multi-Column-icons.css" />
+    <link rel="stylesheet" href="assets/css/Google-Products-Accordion.css" />
+    <link rel="stylesheet" href="assets/css/Growing-Search-Bar-Animated-Text-Input.css"/>
+    <link rel="stylesheet" href="assets/css/Hover-cards.css" />
+    <link rel="stylesheet" href="assets/css/Icon-Button.css" />
+    <link rel="stylesheet" href="assets/css/Model-Cards-1.css" />
+    <link rel="stylesheet" href="assets/css/MUSA_carousel-product-cart-slider-carousel-product-cart-slider.css"/>
+    <link rel="stylesheet" href="assets/css/MUSA_carousel-product-cart-slider.css"/>
+    <link rel="stylesheet" href="assets/css/MUSA_product-display-1.css" />
+    <link rel="stylesheet" href="assets/css/MUSA_product-display.css" />
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css" />
+    <link rel="stylesheet" href="assets/css/Rounded-Button.css" />
+    <link rel="stylesheet" href="assets/css/Search-Input-Responsive-with-Icon.css"/>
+    <link rel="stylesheet" href="assets/css/Simple-Header-y-Navbar-adaptativo-1.css"/>
+    <link rel="stylesheet" href="assets/css/Simple-Header-y-Navbar-adaptativo.css"/>
+  </head>
+
+  <body>
+    <!-- Start: Black Navbar -->
+    <div th:replace="navbar::nav"></div>
+    <!-- End: Black Navbar -->
+
+
+    <header class="container-fluid" style="margin-top: 71px">
+      <img id="banner-image" src="assets/img/banner.png" />
+    </header>
+    <section>
+      <div>
+        <div>
+          <div>
+            <!-- Start: Search Input Responsive with Icon -->
+            <div class="row">
+              <div class="col-md-10 offset-md-1" style="border-radius: 0px">
+                <div class="card m-auto" style="max-width: 850px">
+                  <div class="card-body">
+                    <form class="d-flex align-items-center">
+                      <i
+                        class="fas fa-search d-none d-sm-block h4 text-body m-0"
+                      ></i
+                      ><input
+                        class="form-control form-control-lg flex-shrink-1 form-control-borderless"
+                        type="search"
+                        placeholder="Search for medicines"
+                        name="searchbar"
+                      /><button class="btn btn-success btn-lg" type="submit">
+                        Search
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End: Search Input Responsive with Icon -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="width: 95%">
+      <small
+        class="form-text"
+        style="
+          font-size: 30px;
+          font-family: Allerta, sans-serif;
+          font-weight: bold;
+          margin: 10px 0px 0px;
+        "
+        >Shop By Categories</small
+      >
+      <div>
+        <!-- Start: Hover cards -->
+        <div
+          class="container d-xl-flex justify-content-xl-center align-items-xl-center"
+          style="padding: 0px 12px"
+        >
+          <div
+            class="card card1"
+            style="
+              background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png');
+            "
+          >
+            <img
+              class="card-img-top w-100 d-block"
+              src="assets/img/medicine_img.png"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Covid Essential</h3>
+              <div class="go-corner">
+                <div class="go-arrow">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card1"
+            style="
+              background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png');
+            "
+          >
+            <img
+              class="card-img-top w-100 d-block"
+              src="assets/img/medicine_img.png"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Personal Care</h3>
+              <div class="go-corner">
+                <div class="go-arrow">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card1"
+            style="
+              background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png');
+              height: 341.959px;
+            "
+          >
+            <img
+              class="card-img-top w-100 d-block"
+              src="assets/img/medicine_img.png"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Health Food &amp; Drinks</h3>
+              <div class="go-corner">
+                <div class="go-arrow">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card1"
+            style="
+              background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png');
+              height: 341.959px;
+            "
+          >
+            <img
+              class="card-img-top w-100 d-block"
+              src="assets/img/medicine_img.png"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Ayurvedic Care</h3>
+              <div class="go-corner">
+                <div class="go-arrow">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card card1"
+            style="
+              background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png');
+              height: 341.959px;
+            "
+          >
+            <img
+              class="card-img-top w-100 d-block"
+              src="assets/img/medicine_img.png"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Fitness Supplements</h3>
+              <div class="go-corner">
+                <div class="go-arrow">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End: Hover cards -->
+      </div>
+    </section>
+    <!-- Start: Footer Multi Column -->
+    <div th:replace="footer::footer"></div>
+    <!-- End: Footer Multi Column -->
+
+    
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/MUSA_product-display.js"></script>
+  </body>
+</html>

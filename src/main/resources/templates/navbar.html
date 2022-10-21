@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/Simple-Header-y-Navbar-adaptativo-1.css"/> -->
+    <link rel="stylesheet" href="assets/css/Simple-Header-y-Navbar-adaptativo.css"/>
+    <link rel="stylesheet" href="assets/css/Black-Navbar.css" />
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-light navbar-expand-md fixed-top navbar-fixed-top navigation-clean-button"
+      style="
+        border-radius: 20;
+        border-top-left-radius: 20;
+        border-top-right-radius: 20;
+        border-bottom-right-radius: 20;
+        border-bottom-left-radius: 20;
+        border-style: none;
+        padding-top: 0;
+        padding-bottom: 10px;
+        background: rgb(238, 238, 249);
+      "
+    >
+      <div class="container">
+        <button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-1"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span></button
+        ><a th:href="@{/home}"><img id="logo" src="assets/img/Logo.png" /></a>
+        <div
+          class="collapse navbar-collapse"
+          id="navcol-1"
+          style="color: #ffffff"
+        >
+          <ul class="navbar-nav nav-right"></ul>
+          <!-- Start: Actions -->
+          <p class="ms-auto navbar-text actions">
+            <a
+              class="btn btn-light link-dark action-button"
+              role="button"
+              th:href="@{/login-signup}"
+              style="
+                color: rgba(0, 0, 0, 0.9);
+                background: var(--bs-gray-200);
+                border-radius: 10px;
+                border-style: solid;
+                border-color: rgba(0, 0, 0, 0.9);
+                font-size: 16px;
+                padding: 5px 8px;
+                --bs-body-bg: #fff;
+              "
+              >Login/Signup</a
+            >
+            <a
+              th:href="@{/cart}"
+              class="btn btn-light action-button"
+              role="button"
+              style="
+                color: rgba(0, 0, 0, 0.9);
+                background: var(--bs-gray-200);
+                border-radius: 10px;
+                border-style: solid;
+                border-color: rgba(0, 0, 0, 0.9);
+                font-size: 16px;
+                padding: 5px 8px;
+              "
+              ><i class="fa fa-shopping-cart" style="font-size: 17px"></i
+              >&nbsp;Cart&nbsp;&nbsp;<span
+                class="badge bg-primary"
+                style="border-radius: 50px"
+                >3</span
+              ></a
+            >
+          </p>
+          <!-- End: Actions -->
+        </div>
+      </div>
+    </nav>
+
+</body>
+</html>
